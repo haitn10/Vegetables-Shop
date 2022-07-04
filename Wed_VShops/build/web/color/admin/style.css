@@ -1,0 +1,111 @@
+body {
+    font-family: Arial;
+    background-color: #DBF0D0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #5DC84C;
+    padding-top: 10px;
+}
+.header ul {
+    list-style-type: none;
+}
+.header ul li {
+    display: inline-block;
+}
+
+.header ul li {
+    padding-bottom: 10px;
+}
+.header ul li h2 {
+    float: left;
+    color: #fff;
+}
+.header ul li h6{
+    text-align: center;
+}
+.search {
+    margin-left: 25%;
+}
+
+.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    margin-top: 10px;
+}
+
+.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.example button:hover {
+    background: #0b7dda;
+}
+
+.example::after {
+    content: "";
+    clear: both;
+    display: table;
+} 
+.logout{
+    float: right;
+    margin-right: 50px;
+    padding-top: 10px;
+}
+
+.logout a{
+    font-size: 30px; 
+    color: #000;
+}
+.logout a:hover{
+    color: #fff;
+}
+
+.caption {
+    margin-bottom: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+.show {
+    margin: 20px 50px;
+    padding: 10px 5px;
+    border: 1px solid #336D2A;
+    width: auto;
+    background-color: #EFD0C5;
+    color: #000;
+}
+
+.responsive-table thead {
+    font-size: 15px;
+    text-align: center;
+}
+.input {
+    width: 100%;
+    background-color: #EFD0C5;
+    border: none;
+}
+tr, th, td {
+    border: 1px solid #336D2A;
+    width: 150px;
+}
+.responsive-table tbody {
+    text-align: center;
+}
